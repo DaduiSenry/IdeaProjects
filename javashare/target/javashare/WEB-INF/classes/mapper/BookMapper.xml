@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lz.mapper.BookMapper">
+    <resultMap type="com.lz.po.Book" id="bookMap">
+        <id column="id" property="id"/>
+        <result column="book_name" property="name"/>
+        <result column="book_path" property="path"/>
+        <result column="book_kind" property="kind"/>
+    </resultMap>
+    <insert id="insertBook">
+        insert tb_book (
+        <if test="name!=null">book_name</if>
+        <if test="path!=null">,book_path</if>
+        <if test="kind!=null">,book_kind</if>
+        ) values (
+        <if test="name!=null">#{name}</if>
+        <if test="path!=null">,#{path}</if>
+        <if test="kind!=null">,#{kind}</if>
+        )
+    </insert>
+    <delete id="deleteBook">
+        delete from tb_book
+        <where>
+            <if test="id!=null">id=#{id}</if>
+            <if test="name!=null"> or book_name=#{name}</if>
+            <if test="path!=null"> or book_path=#{path}</if>
+            <if test="kind!=null"> or book_kind=#{kind}</if>
+        </where>
+    </delete>
+    <update id="updateBook">
+		update tb_book set
+        <if test="name!=null"> book_name=#{name}</if>
+        <if test="path!=null">, book_path=#{path}</if>
+        <if test="kind!=null">, book_kind=#{kind}</if>
+        where id=#{id}
+	</update>
+    <select id="selectBook" resultMap="bookMap">
+        select id,book_name,book_path,book_kind from tb_books
+        <where>
+            <if test="name!=null"> book_name=#{name}</if>
+            <if test="path!=null"> or book_path=#{path}</if>
+            <if test="kind!=null"> or book_kind=#{kind}</if>
+        </where>
+    </select>
+</mapper>

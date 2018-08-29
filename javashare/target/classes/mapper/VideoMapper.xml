@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lz.mapper.VideoMapper">
+    <resultMap type="com.lz.po.Video" id="videoMap">
+        <id column="id" property="id"/>
+        <result column="video_name" property="name"/>
+        <result column="video_path" property="path"/>
+        <result column="video_kind" property="kind"/>
+    </resultMap>
+    <insert id="insertVideo">
+        insert tb_video (
+        <if test="name!=null">video_name</if>
+        <if test="path!=null">,video_path</if>
+        <if test="kind!=null">,video_kind</if>
+        ) values (
+        <if test="name!=null">#{name}</if>
+        <if test="path!=null">,#{path}</if>
+        <if test="kind!=null">,#{kind}</if>
+        )
+    </insert>
+    <delete id="deleteVideo">
+        delete from tb_video
+        <where>
+            <if test="id!=null">id=#{id}</if>
+            <if test="name!=null"> or video_name=#{name}</if>
+            <if test="path!=null"> or video_path=#{path}</if>
+            <if test="kind!=null"> or video_kind=#{kind}</if>
+        </where>
+    </delete>
+    <update id="updateVideo">
+        update tb_video set
+        <if test="name!=null"> video_name=#{name}</if>
+        <if test="path!=null">, video_path=#{path}</if>
+        <if test="kind!=null">, video_kind=#{kind}</if>
+        where id=#{id}
+    </update>
+    <select id="selectVideo" resultMap="videoMap">
+        select id,video_name,video_path,video_kind from tb_video
+        <where>
+            <if test="name!=null"> video_name=#{name}</if>
+            <if test="path!=null"> or video_path=#{path}</if>
+            <if test="kind!=null"> or video_kind=#{kind}</if>
+        </where>
+    </select>
+</mapper>

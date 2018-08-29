@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lz.mapper.UserMapper">
+    <resultMap id="userMap" type="com.lz.po.User">
+        <id column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="usertype" property="userType"/>
+    </resultMap>
+    <select id="selectUser" resultType="String">
+		select username from tb_user where username=#{username}
+	</select>
+    <select id="isUser" resultType="String">
+		select usertype from tb_user where username=#{username} and password=#{password}
+	</select>
+    <insert id="insterUser">
+        insert tb_user (
+        <if test="username != null">username</if>
+        <if test="password != null">,password</if>
+        <if test="userType != null">,usertype</if>
+        ) values (
+        <if test="username != null">#{username}</if>
+        <if test="password != null">,#{password}</if>
+        <if test="userType != null">,#{userType}</if>
+        )
+    </insert>
+    <select id="selectAllUserByPages" resultMap="userMap">
+		select username,password,usertype from tb_user limit #{param1},#{param2}
+	</select>
+    <select id="selectAllUser" resultMap="userMap">
+		select username,password,usertype from tb_user
+	</select>
+    <select id="selectUsersNum" resultType="String">
+		select count(*) from tb_user
+	</select>
+    <delete id="deleteUser">
+		delete from tb_user where username = #{username}
+	</delete>
+    <select id="selectUserMessage" resultMap="userMap">
+		select username,password,usertype from tb_user where username=#{username}
+	</select>
+    <update id="updateUser">
+		update tb_user set password=#{password},usertype=#{userType} where username=#{username}
+	</update>
+</mapper>

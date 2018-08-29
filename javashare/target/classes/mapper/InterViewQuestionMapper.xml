@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lz.mapper.UserMapper">
+    <resultMap id="iqMap" type="com.lz.po.InterViewQuestion">
+        <id column="id" property="id"/>
+        <result column="mianshiti_name" property="name"/>
+        <result column="mianshiti_path" property="path"/>
+        <result column="mianshiti_kind" property="kind"/>
+    </resultMap>
+    <insert id="insertIQ">
+        insert tb_mianshiti (
+        <if test="name!=null">mianshiti_name</if>
+        <if test="path!=null">,mianshiti_path</if>
+        <if test="kind!=null">,mianshiti_kind</if>
+        ) values (
+        <if test="name!=null">#{name}</if>
+        <if test="path!=null">,#{path}</if>
+        <if test="kind!=null">,#{kind}</if>
+        )
+    </insert>
+    <delete id="deleteIQ">
+		delete from tb_mianshiti where id=#{id}
+	</delete>
+    <update id="updateIQ">
+        update tb_mianshiti set
+        <if test="name!=null">mianshiti_name=#{name}</if>
+        <if test="path!=null">,mianshiti_path=#{path}</if>
+        <if test="kind!=null">,mianshiti_kind=#{kind}</if>
+        where id=#{id}
+    </update>
+    <select id="selectIQ" resultMap="iqMap">
+        select id,mianshiti_name,mianshiti_path,mianshiti_kind from tb_mianshiti
+        <where>
+            <if test="id!=null">id=#{id}</if>
+            <if test="name!=null"> or mianshiti_name=#{name}</if>
+            <if test="path!=null"> or mianshiti_path=#{path}</if>
+            <if test="kind!=null"> ormianshiti_kind=#{kind}</if>
+        </where>
+    </select>
+</mapper>

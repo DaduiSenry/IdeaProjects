@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 2 | Blank Page</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="../static/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../static/bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="../static/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="../static/dist/css/skins/_all-skins.min.css">
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- =============================================== -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+  <section class="content" style="padding:10px;">
+    <div class="row">
+		<div class="col-xs-12">
+		   <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">商品列表</h3>
+
+              <div class="box-tools">
+                <div class="input-group input-group-sm" style="width: 150px;">
+                  <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
+
+                  <div class="input-group-btn">
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body table-responsive no-padding">
+              <table class="table table-hover">
+                <tr>
+                  <th>商品编号</th>
+                  <th>展示图片</th>
+                  <th>商品数量</th>
+                  <th>价格</th>
+                  <th>商品名称</th>
+                </tr>
+                	<tr>
+                		<td>${product.id}</td>
+                		<td><img width="120" height="80" src="${product.photo}"/></td>
+                		<td>${product.stock}</td>
+                		<td>${product.price}</td>
+                		<td>${product.desc}</td>
+                		<td><span class="label label-success">Approved</span></td>
+                	</tr>
+              
+              </table>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer clearfix">
+              <ul class="pagination pagination-sm no-margin pull-right">
+              	<li>
+              </ul>
+            </div>
+          </div>
+		
+		</div>
+	</div>
+   </section>
+  </div>
+  <!-- /.content-wrapper -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery 3 -->
+<script src="/TheFlash2/static/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="/TheFlash2/static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- SlimScroll -->
+<script src="/TheFlash2/static/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="/TheFlash2/static/bower_components/fastclick/lib/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="/TheFlash2/static/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="/TheFlash2/static/dist/js/demo.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.sidebar-menu').tree()
+  })
+</script>
+</body>
+</html>

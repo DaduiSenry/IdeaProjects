@@ -1,0 +1,32 @@
+package com.lz.service;
+
+import com.lz.po.Node;
+
+import java.util.List;
+
+public interface NodeService {
+    /**
+     * 添加笔记
+     * @param node
+     * @return
+     */
+    int insertNode(Node node);
+    /**
+     * 删除笔记
+     * @param node
+     * @return
+     */
+    int deleteNode(Node node);
+    /**
+     * 修改笔记
+     * @param node
+     * @return
+     */
+    int updateNode(Node node);
+    /**
+     * 查询笔记
+     * @param node
+     * @return
+     */
+    List<Node> selectNode(Node node);
+}

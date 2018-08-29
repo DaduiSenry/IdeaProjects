@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lz.mapper.NodeMapper">
+    <resultMap type="com.lz.po.Node" id="nodeMap">
+        <id column="id" property="id"/>
+        <result column="node_name" property="name"/>
+        <result column="node_path" property="path"/>
+        <result column="node_kind" property="kind"/>
+    </resultMap>
+    <insert id="insertNode">
+        insert tb_node (
+        <if test="name!=null">node_name</if>
+        <if test="path!=null">,node_path</if>
+        <if test="kind!=null">,node_kind</if>
+        ) values (
+        <if test="name!=null">#{name}</if>
+        <if test="path!=null">,#{path}</if>
+        <if test="kind!=null">,#{kind}</if>
+        )
+    </insert>
+    <delete id="deleteNode">
+        delete from tb_node
+        <where>
+            <if test="id!=null">id=#{id}</if>
+            <if test="name!=null"> or node_name=#{name}</if>
+            <if test="path!=null"> or node_path=#{path}</if>
+            <if test="kind!=null"> or node_kind=#{kind}</if>
+        </where>
+    </delete>
+    <update id="updateNode">
+        update tb_node set
+        <if test="name!=null"> node_name=#{name}</if>
+        <if test="path!=null">, node_path=#{path}</if>
+        <if test="kind!=null">, node_kind=#{kind}</if>
+        where id=#{id}
+    </update>
+    <select id="selectNode" resultMap="nodeMap">
+        select id,node_name,node_path,node_kind from tb_node
+        <where>
+            <if test="name!=null"> node_name=#{name}</if>
+            <if test="path!=null"> or node_path=#{path}</if>
+            <if test="kind!=null"> or node_kind=#{kind}</if>
+        </where>
+    </select>
+</mapper>
