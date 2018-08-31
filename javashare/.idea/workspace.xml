@@ -8,82 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f977788f-1b1d-4b72-a398-c03787ee3f5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../BusinessWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/controller/InterViewQuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/controller/InterViewQuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/controller/NodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/controller/NodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/mapper/BookMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/mapper/InterViewQuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/mapper/InterViewQuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/mapper/NodeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/mapper/NodeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/mapper/VideoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/mapper/VideoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/InterViewQuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/InterViewQuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/NodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/NodeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/InterViewQuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/InterViewQuestionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/NodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/NodeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/VideoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/InterViewQuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/InterViewQuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/NodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NodeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/managermain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/managermain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_interview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_interview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/managermain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/managermain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/controller/InterViewQuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/controller/InterViewQuestionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/controller/NodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/controller/NodeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/controller/VideoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/mapper/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/mapper/BookMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/mapper/InterViewQuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/mapper/InterViewQuestionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/mapper/NodeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/mapper/NodeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/mapper/VideoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/mapper/VideoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/InterViewQuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/InterViewQuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/NodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/NodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/VideoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/impl/BookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/impl/InterViewQuestionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/impl/InterViewQuestionServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/impl/NodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/impl/NodeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/impl/VideoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BookMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/InterViewQuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/InterViewQuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/NodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/NodeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/managermain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/managermain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/table_interview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/table_interview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/InterViewQuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/InterViewQuestionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/NodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/NodeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/VideoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/BookMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/InterViewQuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/InterViewQuestionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/NodeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/NodeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/VideoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/VideoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/InterViewQuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/InterViewQuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/NodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/NodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/VideoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/BookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/InterViewQuestionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/InterViewQuestionServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/NodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/NodeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/VideoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/BookMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/InterViewQuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/InterViewQuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/NodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/NodeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javashare/js/managermain.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/js/managermain.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -121,7 +45,7 @@
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
@@ -136,7 +60,7 @@
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.70" value="2" />
           <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -195,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/managermain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="589" column="29" lean-forward="true" selection-start-line="589" selection-start-column="29" selection-end-line="589" selection-end-column="29" />
+            <state relative-caret-position="12958">
+              <caret line="589" column="29" selection-start-line="589" selection-start-column="29" selection-end-line="589" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -204,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="49" column="80" lean-forward="true" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
+            <state relative-caret-position="132">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -213,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
+            <state relative-caret-position="2948">
               <caret line="145" selection-start-line="145" selection-end-line="145" />
             </state>
           </provider>
@@ -437,49 +361,7 @@
               <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="lz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="lz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -726,11 +608,12 @@
       <workItem from="1535630110188" duration="1963000" />
       <workItem from="1535632199647" duration="1324000" />
       <workItem from="1535673566776" duration="5110000" />
+      <workItem from="1535685779894" duration="2101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113186000" />
+    <option name="totallyTimeSpent" value="115287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -744,7 +627,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15471092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15665236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -758,8 +641,8 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3284169" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3284169" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32760364" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32760364" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.45696068" side_tool="true" weight="0.5957672" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.27138644" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32940018" />
@@ -1107,13 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1123,15 +999,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/managermain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="589" column="29" lean-forward="true" selection-start-line="589" selection-start-column="29" selection-end-line="589" selection-end-column="29" />
+        <state relative-caret-position="12958">
+          <caret line="589" column="29" selection-start-line="589" selection-start-column="29" selection-end-line="589" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2948">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="49" column="80" lean-forward="true" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
+        <state relative-caret-position="132">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
