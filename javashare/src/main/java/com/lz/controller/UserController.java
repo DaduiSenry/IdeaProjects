@@ -5,13 +5,17 @@ import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.websocket.Session;
 
-import com.lz.service.UserService;
+import com.lz.po.Book;
+import com.lz.po.Node;
+import com.lz.po.Video;
+import com.lz.service.*;
 import org.apache.ibatis.reflection.wrapper.BaseWrapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -62,6 +66,10 @@ public class UserController extends BaseController<UserService> {
     public void manage(HttpServletRequest request, HttpServletResponse response) {
         try {
             selectAllUser(request,response);
+            selectAllIQ(request,response);
+            selectAllBook(request,response);
+            selectAllNode(request,response);
+            selectAllVideo(request,response);
             request.getRequestDispatcher("/WEB-INF/admin/managermain.jsp").forward(request, response);
         } catch (ServletException | IOException e) {
             e.printStackTrace();
@@ -241,7 +249,7 @@ public class UserController extends BaseController<UserService> {
         }
     }
 
-    protected void getJson(HttpServletRequest request,HttpServletResponse response,Object object){
+    protected static void getJson(HttpServletRequest request,HttpServletResponse response,Object object){
         response.setContentType("text/html;charset=UTF-8");
         //禁用缓存，确保网页信息是最新数据
         response.setHeader("Pragma","No-cache");
@@ -259,5 +267,29 @@ public class UserController extends BaseController<UserService> {
         }finally{
             out.close();
         }
+    }
+
+    public void selectAllIQ(HttpServletRequest request,HttpServletResponse response){
+        InterViewQuestionService bean = act.getBean(InterViewQuestionService.class);
+        List<InterViewQuestionService> iqs = bean.selectAllIQ();
+        request.setAttribute("iqs",iqs);
+    }
+
+    public void selectAllBook(HttpServletRequest request,HttpServletResponse response){
+        BookService bean = act.getBean(BookService.class);
+        List<Book> books = bean.selectAllBook();
+        request.setAttribute("books",books);
+    }
+
+    public void selectAllNode(HttpServletRequest request,HttpServletResponse response){
+        NodeService bean = act.getBean(NodeService.class);
+        List<Node> nodes = bean.selectAllNode();
+        request.setAttribute("nodes",nodes);
+    }
+
+    public void selectAllVideo(HttpServletRequest request,HttpServletResponse response){
+        VideoService bean = act.getBean(VideoService.class);
+        List<Video> videos = bean.selectAllVideo();
+        request.setAttribute("videos",videos);
     }
 }

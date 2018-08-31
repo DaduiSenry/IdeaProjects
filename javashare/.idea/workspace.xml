@@ -2,12 +2,88 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="javashare:war exploded" />
+      <artifact name="javashare:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f977788f-1b1d-4b72-a398-c03787ee3f5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../BusinessWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BusinessWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/controller/InterViewQuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/controller/InterViewQuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/controller/NodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/controller/NodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/mapper/InterViewQuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/mapper/InterViewQuestionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/mapper/NodeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/mapper/NodeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/mapper/VideoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/mapper/VideoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/InterViewQuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/InterViewQuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/NodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/NodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/VideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/InterViewQuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/InterViewQuestionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/NodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/NodeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/InterViewQuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/InterViewQuestionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/NodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NodeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VideoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/managermain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/managermain.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_interview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_interview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/managermain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/managermain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/controller/InterViewQuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/controller/InterViewQuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/controller/NodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/controller/NodeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/controller/VideoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/mapper/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/mapper/BookMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/mapper/InterViewQuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/mapper/InterViewQuestionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/mapper/NodeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/mapper/NodeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/mapper/VideoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/mapper/VideoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/InterViewQuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/InterViewQuestionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/NodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/NodeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/VideoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/impl/InterViewQuestionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/impl/InterViewQuestionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/impl/NodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/impl/NodeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/service/impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/service/impl/VideoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/InterViewQuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/InterViewQuestionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/NodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/NodeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/VideoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/managermain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/managermain.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/table_interview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/admin/table_interview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/InterViewQuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/InterViewQuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/NodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/NodeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/controller/VideoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/BookMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/InterViewQuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/InterViewQuestionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/NodeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/NodeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/VideoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/mapper/VideoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/InterViewQuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/InterViewQuestionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/NodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/NodeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/VideoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/InterViewQuestionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/InterViewQuestionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/NodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/NodeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/com/lz/service/impl/VideoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/InterViewQuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/InterViewQuestionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/NodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/NodeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/classes/mapper/VideoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javashare/js/managermain.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/javashare/js/managermain.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,65 +116,76 @@
     <session id="770054478">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.open.time.70" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.70" value="2" />
+          <entry key="project.open.time.81" value="1" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="9" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="3" />
-          <entry key="java" value="84" />
-          <entry key="js" value="4" />
-          <entry key="jsp" value="12" />
+          <entry key="html" value="5" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="134" />
+          <entry key="js" value="19" />
+          <entry key="jsp" value="83" />
           <entry key="properties" value="6" />
-          <entry key="xml" value="31" />
+          <entry key="xml" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="JAVA" value="84" />
-          <entry key="JSP" value="12" />
-          <entry key="JavaScript" value="4" />
+          <entry key="CLASS" value="9" />
+          <entry key="HTML" value="5" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="134" />
+          <entry key="JSP" value="83" />
+          <entry key="JavaScript" value="19" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="6" />
-          <entry key="XML" value="31" />
+          <entry key="XML" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="gitignore" value="8" />
-          <entry key="java" value="1192" />
-          <entry key="js" value="89" />
-          <entry key="jsp" value="248" />
+          <entry key="gitignore" value="11" />
+          <entry key="java" value="4611" />
+          <entry key="js" value="1144" />
+          <entry key="jsp" value="1225" />
           <entry key="properties" value="12" />
           <entry key="txt" value="12" />
-          <entry key="xml" value="509" />
+          <entry key="xml" value="690" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1192" />
-          <entry key="JSP" value="248" />
-          <entry key="JavaScript" value="89" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="JAVA" value="4611" />
+          <entry key="JSP" value="1225" />
+          <entry key="JavaScript" value="1144" />
+          <entry key="PLAIN_TEXT" value="27" />
           <entry key="Properties" value="12" />
-          <entry key="SQL" value="8" />
-          <entry key="XML" value="501" />
+          <entry key="SQL" value="18" />
+          <entry key="XML" value="672" />
         </counts>
       </usages-collector>
     </session>
@@ -106,64 +193,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1850">
-              <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/managermain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="235">
+              <caret line="589" column="29" lean-forward="true" selection-start-line="589" selection-start-column="29" selection-end-line="589" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="352">
+              <caret line="49" column="80" lean-forward="true" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/header.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="84" column="84" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="789">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
             </state>
           </provider>
         </entry>
@@ -184,12 +235,29 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>/javashare</find>
-      <find>Book</find>
       <find>insertiq</find>
       <find>example</find>
+      <find>menu-open</find>
+      <find>ClassName</find>
+      <find>treeview</find>
+      <find>table_delete</find>
+      <find>setIQs</find>
+      <find>iq</find>
+      <find>Book</find>
+      <find>book</find>
+      <find>node</find>
+      <find>书籍</find>
+      <find>Node</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>笔记</replace>
+      <replace>book</replace>
+      <replace>Node</replace>
+      <replace>node</replace>
+      <replace>Video</replace>
+      <replace>视频</replace>
+      <replace>video</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -198,54 +266,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/mapper/BookMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/po/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/po/InterViewQuestion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/po/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lz/service/InterViewQuestionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/BookService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lz/service/impl/InterViewQuestionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/mapper/InterViewQuestionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/InterViewQuestionMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/register.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/impl/BookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/InterViewQuestionController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/po/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/mapper/BookMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lz/mapper/NodeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/NodeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/impl/NodeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/NodeController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/NodeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/po/Video.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/VideoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/VideoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lz/mapper/VideoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/NodeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/service/impl/NodeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lz/service/impl/VideoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/interview_table.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/managermain.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_interview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/dist/js/adminlte.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/dist/js/adminlte.js" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/managermain.js" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/interview_insert.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/deleteinterview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateinterview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/selectinterview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_interview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/interview_update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/interview_select.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/book_update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/book_delete.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/book_insert.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/book_select.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/managermain.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/node_delete.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/node_insert.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/node_select.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/node_update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/video_delete.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/video_insert.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/video_select.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/InterViewQuestionController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_book.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/NodeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_node.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_video.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/video_update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/NodeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/VideoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/InterViewQuestionMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/managermain.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java" />
       </list>
     </option>
   </component>
@@ -286,19 +357,21 @@
       <path value="$PROJECT_DIR$/src/main/webapp/static/bower_components/select2/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="343" />
-    <option name="y" value="251" />
-    <option name="width" value="1400" />
-    <option name="height" value="1068" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="104" />
+    <option name="y" value="116" />
+    <option name="width" value="1936" />
+    <option name="height" value="955" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,13 +413,90 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="lz" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javashare" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javashare" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -358,14 +508,16 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535513434003" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535680238967" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SessionTest/MavenSSM" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\javashare\src\main\webapp\WEB-INF\admin" />
       <recent name="D:\IdeaProjects\javashare\src\main\webapp" />
       <recent name="D:\IdeaProjects\javashare\src\main\webapp\WEB-INF" />
       <recent name="D:\IdeaProjects\javashare\src\main\java\com\lz\mapper" />
@@ -461,11 +613,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.102" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+    <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="javashare:war exploded">
+        <artifact name="javashare:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -530,7 +682,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="javashare:war exploded" />
+          <artifact name="javashare:war" />
         </option>
       </method>
     </configuration>
@@ -564,12 +716,21 @@
       <workItem from="1535504098453" duration="628000" />
       <workItem from="1535504780060" duration="3067000" />
       <workItem from="1535509960876" duration="722000" />
-      <workItem from="1535512622853" duration="811000" />
+      <workItem from="1535512622853" duration="3229000" />
+      <workItem from="1535519590321" duration="25029000" />
+      <workItem from="1535545878184" duration="240000" />
+      <workItem from="1535586807847" duration="626000" />
+      <workItem from="1535587597245" duration="18490000" />
+      <workItem from="1535612416317" duration="2243000" />
+      <workItem from="1535615054082" duration="14885000" />
+      <workItem from="1535630110188" duration="1963000" />
+      <workItem from="1535632199647" duration="1324000" />
+      <workItem from="1535673566776" duration="5110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40858000" />
+    <option name="totallyTimeSpent" value="113186000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,9 +742,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1392136" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15471092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -593,19 +754,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32910052" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5430393" weight="0.38624337" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5430393" weight="0.36958712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32910052" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3284169" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3284169" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.45696068" side_tool="true" weight="0.5957672" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.17861205" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32946146" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.27138644" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32940018" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32940018" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32940018" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32940018" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3284169" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -627,346 +788,350 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/po/InterViewQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/InterViewQuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/InterViewQuestionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4500" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/deleteuser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="56" column="92" selection-start-line="56" selection-start-column="92" selection-end-line="56" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/impl/InterViewQuestionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/InterViewQuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="164" column="57" lean-forward="true" selection-start-line="164" selection-start-column="57" selection-end-line="164" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/po/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/NodeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/mapper/NodeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/impl/NodeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/po/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/po/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/po/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/mapper/BookMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NodeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/NodeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/VideoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/mapper/VideoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/impl/VideoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/managerinterview.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/VideoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_interview.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+        <state relative-caret-position="296">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/managingusers.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/managermain.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/insertuser.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
-          <caret line="153" column="39" selection-start-line="153" selection-start-column="39" selection-end-line="153" selection-end-column="39" />
+        <state relative-caret-position="841">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateuser.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/mapper/InterViewQuestionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="352">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/deleteuser.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state relative-caret-position="-99" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_interview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/interview_delete.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="-132">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/interview_insert.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+        <state relative-caret-position="660">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/interview_update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/interview_select.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/po/InterViewQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/InterViewQuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3478">
+          <caret line="289" column="77" selection-start-line="289" selection-start-column="77" selection-end-line="289" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/book_select.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/node_select.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1021">
+          <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/video_insert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/video_select.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="84" column="84" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
+        <state relative-caret-position="728">
+          <caret line="141" column="16" lean-forward="true" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/book_update.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        <state relative-caret-position="525">
+          <caret line="44" column="79" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_book.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/InterViewQuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="103" column="7" lean-forward="true" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/book_delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/managermain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_node.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/node_delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/table_video.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/node_update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" column="111" selection-start-line="26" selection-start-column="111" selection-end-line="26" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/node_insert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="36" column="76" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/NodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/impl/NodeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/mapper/NodeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/video_delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/NodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/service/impl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.6/mybatis-3.2.6.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/video_update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/VideoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NodeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/InterViewQuestionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.2.RELEASE/spring-webmvc-4.0.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7810">
+          <caret line="405" selection-start-line="405" selection-end-line="405" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.2.RELEASE/spring-webmvc-4.0.2.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9240">
+          <caret line="490" column="9" selection-start-line="490" selection-start-column="9" selection-end-line="490" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/book_insert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="88">
+          <caret line="4" column="66" lean-forward="true" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/managermain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="235">
+          <caret line="589" column="29" lean-forward="true" selection-start-line="589" selection-start-column="29" selection-end-line="589" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lz/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="352">
+          <caret line="49" column="80" lean-forward="true" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
         </state>
       </provider>
     </entry>

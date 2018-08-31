@@ -41,4 +41,10 @@ public class InterViewQuestionServiceImpl implements InterViewQuestionService {
         List<InterViewQuestionService> selectIQ = iqMapper.selectIQ(iq);
         return selectIQ;
     }
+
+    @Override
+    public List<InterViewQuestionService> selectAllIQ() {
+        List<InterViewQuestionService> iqs = iqMapper.selectAllIQ();
+        return iqs;
+    }
 }

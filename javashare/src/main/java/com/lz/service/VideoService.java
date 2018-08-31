@@ -29,4 +29,9 @@ public interface VideoService {
      * @return
      */
     List<Video> selectVideo(Video video);
+    /**
+     * 查询全部视频
+     * @return
+     */
+    List<Video> selectAllVideo();
 }

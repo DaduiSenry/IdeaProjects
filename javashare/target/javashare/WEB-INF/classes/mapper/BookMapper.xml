@@ -23,25 +23,31 @@
     <delete id="deleteBook">
         delete from tb_book
         <where>
-            <if test="id!=null">id=#{id}</if>
+            <if test="id!=0"> or id=#{id}</if>
             <if test="name!=null"> or book_name=#{name}</if>
             <if test="path!=null"> or book_path=#{path}</if>
             <if test="kind!=null"> or book_kind=#{kind}</if>
         </where>
     </delete>
     <update id="updateBook">
-		update tb_book set
-        <if test="name!=null"> book_name=#{name}</if>
-        <if test="path!=null">, book_path=#{path}</if>
-        <if test="kind!=null">, book_kind=#{kind}</if>
+		update tb_book
+        <set>
+        <if test="name!=null"> book_name=#{name},</if>
+        <if test="path!=null">book_path=#{path},</if>
+        <if test="kind!=null">book_kind=#{kind},</if>
+        </set>
         where id=#{id}
 	</update>
     <select id="selectBook" resultMap="bookMap">
-        select id,book_name,book_path,book_kind from tb_books
+        select id,book_name,book_path,book_kind from tb_book
         <where>
-            <if test="name!=null"> book_name=#{name}</if>
+            <if test="id!=0"> or id=#{id}</if>
+            <if test="name!=null"> or book_name=#{name}</if>
             <if test="path!=null"> or book_path=#{path}</if>
             <if test="kind!=null"> or book_kind=#{kind}</if>
         </where>
+    </select>
+    <select id="selectAllBook" resultMap="bookMap">
+        select id,book_name,book_path,book_kind from tb_book
     </select>
 </mapper>

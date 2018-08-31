@@ -29,4 +29,10 @@ public interface NodeMapper {
      * @return
      */
     List<Node> selectNode(Node node);
+
+    /**
+     * 查询全部笔记
+     * @return
+     */
+    List<Node> selectAllNode();
 }

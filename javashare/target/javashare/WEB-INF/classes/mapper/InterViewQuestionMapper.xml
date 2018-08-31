@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.lz.mapper.UserMapper">
+<mapper namespace="com.lz.mapper.InterViewQuestionMapper">
     <resultMap id="iqMap" type="com.lz.po.InterViewQuestion">
         <id column="id" property="id"/>
         <result column="mianshiti_name" property="name"/>
@@ -24,19 +24,24 @@
 		delete from tb_mianshiti where id=#{id}
 	</delete>
     <update id="updateIQ">
-        update tb_mianshiti set
-        <if test="name!=null">mianshiti_name=#{name}</if>
-        <if test="path!=null">,mianshiti_path=#{path}</if>
-        <if test="kind!=null">,mianshiti_kind=#{kind}</if>
+        update tb_mianshiti
+        <set>
+        <if test="name!=null">mianshiti_name=#{name},</if>
+        <if test="path!=null">mianshiti_path=#{path},</if>
+        <if test="kind!=null">mianshiti_kind=#{kind},</if>
+        </set>
         where id=#{id}
     </update>
     <select id="selectIQ" resultMap="iqMap">
         select id,mianshiti_name,mianshiti_path,mianshiti_kind from tb_mianshiti
         <where>
-            <if test="id!=null">id=#{id}</if>
+            <if test="id!=0"> or id=#{id}</if>
             <if test="name!=null"> or mianshiti_name=#{name}</if>
             <if test="path!=null"> or mianshiti_path=#{path}</if>
-            <if test="kind!=null"> ormianshiti_kind=#{kind}</if>
+            <if test="kind!=null"> or mianshiti_kind=#{kind}</if>
         </where>
+    </select>
+    <select id="selectAllIQ" resultMap="iqMap">
+        select id,mianshiti_name,mianshiti_path,mianshiti_kind from tb_mianshiti
     </select>
 </mapper>

@@ -45,21 +45,23 @@
 <div class="col-xs-12">
     <div class="box">
         <div class="box-body">
-            <table id="example" class="table table-bordered table-hover">
+            <table id="example2" class="table table-bordered table-hover">
 
                 <thead>
                 <tr>
+                    <th>面试题id</th>
                     <th>面试题名称</th>
                     <th>面试题路径</th>
                     <th>面试题类型</th>
                 </tr>
                 </thead>
                 <tbody>
-                <c:forEach items="${users}" var="user">
+                <c:forEach items="${iqs}" var="iq">
                     <tr>
-                        <td>${user.username}</td>
-                        <td>${user.password}</td>
-                        <td>${user.userType}</td>
+                        <td>${iq.id}</td>
+                        <td>${iq.name}</td>
+                        <td>${iq.path}</td>
+                        <td>${iq.kind}</td>
                     </tr>
                 </c:forEach>
                 </tbody>
@@ -78,13 +80,14 @@
         src="../../static/bower_components/datatables.net-bs/js/dataTables.bootstrap.js"></script>
 <script>
     $(function() {
-        $('#example').DataTable({
+        $('#example2').DataTable({
             'paging' : true,
             'lengthChange' : false,
             'searching' : false,
             'ordering' : true,
             'info' : true,
-            'autoWidth' : false
+            'autoWidth' : false,
+            "bRetrieve": true
         })
     })
 </script>

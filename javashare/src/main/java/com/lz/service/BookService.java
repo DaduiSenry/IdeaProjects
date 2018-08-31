@@ -29,4 +29,9 @@ public interface BookService {
      * @return
      */
     List<Book> selectBook(Book book);
+    /**
+     * 查询全部书籍
+     * @return
+     */
+    List<Book> selectAllBook();
 }

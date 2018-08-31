@@ -39,4 +39,10 @@ public class VideoServiceImpl implements VideoService {
         List<Video> videos = videoMapper.selectVideo(video);
         return videos;
     }
+
+    @Override
+    public List<Video> selectAllVideo() {
+        List<Video> videos = videoMapper.selectAllVideo();
+        return videos;
+    }
 }

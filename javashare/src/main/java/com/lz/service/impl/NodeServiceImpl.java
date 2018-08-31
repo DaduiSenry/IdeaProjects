@@ -39,4 +39,10 @@ public class NodeServiceImpl implements NodeService {
         List<Node> nodes = nodeMapper.selectNode(node);
         return nodes;
     }
+
+    @Override
+    public List<Node> selectAllNode() {
+        List<Node> nodes = nodeMapper.selectAllNode();
+        return nodes;
+    }
 }

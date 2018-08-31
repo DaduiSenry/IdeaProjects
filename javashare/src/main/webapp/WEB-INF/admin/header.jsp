@@ -95,58 +95,59 @@
                     <li><a href="javascript:void(0)" id="user_update"><i class="fa fa-circle-o"></i> 修改用户</a></li>
                     <li><a href="javascript:void(0)" id="user_select"><i class="fa fa-circle-o"></i> 查找用户</a></li>
                 </ul></li>
-            <li class="active treeview"><a href="#"> <i
+            <li class="active treeview"><a href="javascript:void(0)"  id="interview_manage"> <i
                     class="fa fa-dashboard"></i> <span>面试题管理</span> <span
                     class="pull-right-container"> <i
                     class="fa fa-angle-left pull-right"></i>
 						</span>
             </a>
                 <ul class="treeview-menu">
-                    <li class="active" id="interview_insert"><a href="#"><i class="fa fa-circle-o"></i>
+                    <li class="active"><a href="javascript:void(0)" id="interview_insert"><i class="fa fa-circle-o"></i>
                         添加面试题</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 删除面试题</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 修改面试题</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 查找面试题</a></li>
+                    <li><a href="javascript:void(0)" id="interview_delete"><i class="fa fa-circle-o"></i> 删除面试题</a></li>
+                    <li><a href="javascript:void(0)" id="interview_update"><i class="fa fa-circle-o"></i> 修改面试题</a></li>
+                    <li><a href="javascript:void(0)" id="interview_select"><i class="fa fa-circle-o"></i> 查找面试题</a></li>
                 </ul></li>
-            <li class="active treeview"><a href="#"> <i
+            <li class="active treeview"><a href="javascript:void(0)" id="book_manage"> <i
                     class="fa fa-dashboard"></i> <span>书籍管理</span> <span
                     class="pull-right-container"> <i
                     class="fa fa-angle-left pull-right"></i>
 						</span>
             </a>
                 <ul class="treeview-menu">
-                    <li class="active"><a href="#"><i class="fa fa-circle-o"></i>
+                    <li class="active"><a href="javascript:void(0)"  id="book_insert"><i class="fa fa-circle-o"></i>
                         添加书籍</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 删除书籍</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 修改书籍</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 查找书籍</a></li>
+                    <li><a href="javascript:void(0)" id="book_delete"><i class="fa fa-circle-o"></i> 删除书籍</a></li>
+                    <li><a href="javascript:void(0)" id="book_update"><i class="fa fa-circle-o"></i> 修改书籍</a></li>
+                    <li><a href="javascript:void(0)" id="book_select"><i class="fa fa-circle-o"></i> 查找书籍</a></li>
                 </ul></li>
-            <li class="active treeview"><a href="#"> <i
+            <li class="active treeview"><a href="javascript:void(0)" id="node_manage"> <i
                     class="fa fa-dashboard"></i> <span>笔记管理</span> <span
                     class="pull-right-container"> <i
                     class="fa fa-angle-left pull-right"></i>
 						</span>
             </a>
                 <ul class="treeview-menu">
-                    <li class="active"><a href="#"><i class="fa fa-circle-o"></i>
+                    <li class="active"><a href="javascript:void(0)" id="node_insert"><i class="fa fa-circle-o"></i>
                         添加笔记</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 删除笔记</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 修改笔记</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 查找笔记</a></li>
+                    <li><a href="javascript:void(0)" id="node_delete"><i class="fa fa-circle-o"></i> 删除笔记</a></li>
+                    <li><a href="javascript:void(0)" id="node_update"><i class="fa fa-circle-o"></i> 修改笔记</a></li>
+                    <li><a href="javascript:void(0)" id="node_select"><i class="fa fa-circle-o"></i> 查找笔记</a></li>
                 </ul></li>
-            <li class="active treeview"><a href="#"> <i
+            <li class="active treeview"><a href="javascript:void(0)" id="video_manage"> <i
                     class="fa fa-dashboard"></i> <span>视频管理</span> <span
                     class="pull-right-container"> <i
                     class="fa fa-angle-left pull-right"></i>
 						</span>
             </a>
                 <ul class="treeview-menu">
-                    <li class="active"><a href="#"><i class="fa fa-circle-o"></i>
+                    <li class="active"><a href="javascript:void(0)" id="video_insert"><i class="fa fa-circle-o"></i>
                         添加视频</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 删除视频</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 修改视频</a></li>
-                    <li><a href><i class="fa fa-circle-o"></i> 查找视频</a></li>
+                    <li><a href="javascript:void(0)" id="video_delete"><i class="fa fa-circle-o"></i> 删除视频</a></li>
+                    <li><a href="javascript:void(0)" id="video_update"><i class="fa fa-circle-o"></i> 修改视频</a></li>
+                    <li><a href="javascript:void(0)" id="video_select"><i class="fa fa-circle-o"></i> 查找视频</a></li>
                 </ul></li>
+        </ul>
     </section>
     <!-- /.sidebar -->
 </aside>

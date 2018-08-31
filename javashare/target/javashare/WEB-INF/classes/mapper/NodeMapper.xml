@@ -30,18 +30,24 @@
         </where>
     </delete>
     <update id="updateNode">
-        update tb_node set
-        <if test="name!=null"> node_name=#{name}</if>
-        <if test="path!=null">, node_path=#{path}</if>
-        <if test="kind!=null">, node_kind=#{kind}</if>
+        update tb_node
+        <set>
+        <if test="name!=null">node_name=#{name},</if>
+        <if test="path!=null">node_path=#{path},</if>
+        <if test="kind!=null">node_kind=#{kind},</if>
+        </set>
         where id=#{id}
     </update>
     <select id="selectNode" resultMap="nodeMap">
         select id,node_name,node_path,node_kind from tb_node
         <where>
+            <if test="id!=0"> or id=#{id}</if>
             <if test="name!=null"> node_name=#{name}</if>
             <if test="path!=null"> or node_path=#{path}</if>
             <if test="kind!=null"> or node_kind=#{kind}</if>
         </where>
+    </select>
+    <select id="selectAllNode" resultMap="nodeMap">
+        select id,node_name,node_path,node_kind from tb_node
     </select>
 </mapper>

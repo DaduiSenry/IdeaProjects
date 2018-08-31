@@ -29,4 +29,9 @@ public interface InterViewQuestionService {
      * @return
      */
     List<InterViewQuestionService> selectIQ(InterViewQuestion iq);
+    /**
+     * 查询全部面试题
+     * @return
+     */
+    List<InterViewQuestionService> selectAllIQ();
 }
